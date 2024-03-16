@@ -1,0 +1,18 @@
+/* Add your styles for different components here */
+.app {
+    display: flex; /* Allow side-by-side layout */
+  }
+  
+  .main-container {
+    display: flex;
+    flex-grow: 1; /* Allow main content to fill remaining space */
+  }
+  
+  .profile-container {
+    width: 256px; /* Set static width for profile container */
+    height: 834px; /* Set static height for profile container */
+    background-color:blanchedalmond; /* Optional background color for profile container */
+    border: 1px solid #ddd; /* Optional border for profile container */
+    /* Additional styles for profile container */
+  }
+  
